@@ -24,6 +24,23 @@
   }
 }
 
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-all-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #0b69ff;
+  cursor: pointer;
+}
+
 .cart-heading {
   color: #3e4c59;
   font-family: 'Roboto';
@@ -38,17 +55,3 @@
 }
 
 /* Write your CSS here */
-
-.remove-all-button-card {
-  align-self: flex-end;
-}
-
-.remove-all-heading {
-  color: #0b69ff;
-  font-weight: 501;
-  font-size: 20px;
-  background-color: transparent;
-  border-width: 0px;
-  cursor: pointer;
-  outline: none;
-}
